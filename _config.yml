@@ -1,0 +1,12 @@
+# Global Setttings
+title               : "BunkerGames"
+description         : "A list of curated game servers"
+source              : .
+collections_dir     : .
+plugins_dir         : _plugins
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
+port                : 6969
+domain              : bunkergames.github.io
+url                 : https://bunkergames.github.io
