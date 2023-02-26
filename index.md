@@ -1,6 +1,5 @@
 ---
-layout: default
-title: BunkerGames
+layout: home
 ---
 
 >Every game should make sure they still work at some level without central server support. Even when not looking at end of life concerns, being able to work when the internet is down is valuable. If you can support some level of LAN play for a multiplayer game, the door is at least open for people to write proxies in the future. Supporting user-run servers as an option can actually save on hosting costs, and also opens up various community creative avenues.

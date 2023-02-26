@@ -1,6 +1,6 @@
 # Global Setttings
 title               : "BunkerGames"
-description         : "A list of curated game servers"
+description         : "A limited of carefully curation of game servers hosting"
 source              : .
 collections_dir     : .
 plugins_dir         : _plugins
