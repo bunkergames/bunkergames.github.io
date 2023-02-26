@@ -14,6 +14,7 @@ $gruber-darker-fg-p2:     #f5f5f5;
 $gruber-darker-red:       #ff4f58;
 $gruber-darker-green:     #73c936;
 $gruber-darker-yellow:    #ffdd33;
+$gruber-darker-blue:      #584fff;
 $gruber-darker-brown:     #cc8c3c;
 $gruber-darker-quartz:    #95a99f;
 $gruber-darker-niagara-2: #303540;
@@ -26,16 +27,26 @@ $gruber-darker-wisteria:  #9e95c7;
 :root {
     --font-size: 1.8rem;
     --grid-maxWidth: 120rem; /* max container width 1080px */
-    --grid-gutter: 1rem;
+    --grid-gutter: 5rem;
 }
 
 body {
-    background: $gruber-darker-bg-p3;
-    color: $gruber-darker-fg-p2;
+    background: $gruber-darker-fg;
+    color: $gruber-darker-bg;
     font-family: $base-font-family;
 
     blockquote {
-        background: $gruber-darker-bg-p2;
+        background: $gruber-darker-wisteria;
+    }
+
+    a {
+        color: $gruber-darker-blue;
+    }
+
+    .bg-error {
+        a {
+            color: $gruber-darker-fg;
+        }
     }
 }
 
@@ -46,6 +57,16 @@ body.dark {
     blockquote {
         background: $gruber-darker-bg;
     }
+
+    a {
+        color: $gruber-darker-wisteria;
+    }
+
+    .bg-error {
+        a {
+            color: $gruber-darker-yellow;
+        }
+    }
 }
 
 h1 {
@@ -54,8 +75,6 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-h1 .title { color: $gruber-darker-wisteria; }
 
 h2 {
     font-size: 28px;

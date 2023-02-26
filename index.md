@@ -7,9 +7,9 @@ title: BunkerGames
 >
 >John Carmack, extract from *[John Carmack’s Full Statement On Echo VR’s Planned Closure](https://uploadvr.com/john-carmack-statement-echo-vr-closure/)*, February 03th, 2023.
 
-**BunkerGames** is a small-at-home personal curation game server hosting based on several ideas about [game preservation](https://www.wired.com/story/fate-future-video-game-preservation-you/), [permacomputing](https://permacomputing.net/Principles/), nostalgia, recycling, diy culture but also some weird thoughs about abandoned I'm working on my spare time.
+**BunkerGames** is a small-at-home personal curation game server hosting based on several ideas about [game preservation](https://www.wired.com/story/fate-future-video-game-preservation-you/), [permacomputing](https://permacomputing.net/Principles/), [vaporwave feelings](https://www.johnhuntpublishing.com/zer0-books/our-books/babbling-corpse), [sustainable principles](https://www.sustainablewebmanifesto.com/) and lots of interests about eerie [abandoned game servers](https://www.reddit.com/r/gamingsuggestions/comments/tz5fgk/abandoned_multiplayer_worlds_games_that_can_still/) stories I'm working on my spare time.
 
-Some of theses games are outdated, others were discontinued or are hardly modded and other are underrated and therefore not so popular. If you like to play a game you don't need to access in a private panel and start to squid with lots of file configurations or parameters.
+Some of theses games are outdated, others were discontinued or are hardly modded and other are underrated and therefore not so popular. If you like to play a game you don't need to access in a private panel and start to struggling with a lots of file configurations or bunch of parameters.
 
 Think out of this project as a small and independent book publisher. I'm not interested in large infraestructures, last cutting-edge hardware state of art or whatever is related of a commercial big company. I prefer to explore other titles that most of them are out of the focus or simply it doesn't have any support.
 
@@ -24,7 +24,9 @@ Due the costs of the electric bills server will be off from 8am to 14pm ([CET](h
 
 You don't need to pay for play any of the available games but any help to pay the electric bills and improve the server hardware will always welcome: [https://paypal.me](https://paypal.me/xbelanch). If you supported the games or pay for mantain the server data you'll get a personal invitation for the Discord Server.
 
+## References
 
-
+- [Dying video games and the people who continue to play them](https://theface.com/life/the-secret-world-video-games-isolation-horror).
+- [Abandoned Servers](https://creepypasta.fandom.com/wiki/Abandoned_Servers).
 
 <!-- ![A super logo](./logo.png) -->
