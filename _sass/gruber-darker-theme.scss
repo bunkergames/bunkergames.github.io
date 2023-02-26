@@ -26,18 +26,26 @@ $gruber-darker-wisteria:  #9e95c7;
 :root {
     --font-size: 1.8rem;
     --grid-maxWidth: 120rem; /* max container width 1080px */
-    --grid-gutter: 0rem;
+    --grid-gutter: 1rem;
 }
 
 body {
     background: $gruber-darker-bg-p3;
     color: $gruber-darker-fg-p2;
     font-family: $base-font-family;
+
+    blockquote {
+        background: $gruber-darker-bg-p2;
+    }
 }
 
 body.dark {
     background: $gruber-darker-bg-m1;
     color: $gruber-darker-fg;
+
+    blockquote {
+        background: $gruber-darker-bg;
+    }
 }
 
 h1 {
