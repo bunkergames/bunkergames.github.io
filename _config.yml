@@ -10,3 +10,11 @@ includes_dir        : _includes
 port                : 6969
 domain              : bunkergames.github.io
 url                 : https://bunkergames.github.io
+collections:
+  servers:
+    output: true
+    permalink: /:collection/:name
+donations:
+  paypal:
+    text:           Donate      # Button text
+    id:             XV8NTFTT9BAM8  # PayPal button ID

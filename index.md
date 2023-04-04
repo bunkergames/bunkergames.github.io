@@ -21,7 +21,18 @@ Most of the game servers have an CPU impacte and therefore this means more Watts
 {:.card .bg-error }
 Due the costs of the electric bills server will be off from 8am to 14pm ([CET](https://time.is/CET)) from Monday to Friday.
 
+## Make donations for world preservation
+
 You don't need to pay for play any of the available games but any help to pay the electric bills and improve the server hardware will always welcome: [https://paypal.me](https://paypal.me/xbelanch). If you supported the games or pay for mantain the server data you'll get a personal invitation for the Discord Server.
+
+## List of servers
+{% for server in site.servers %}
+{% include card.html
+    title=server.title
+    last-wipe=server.last-wipe
+    cpu-cost=server.cpu-cost
+    min-world-month-cost=server.min-world-month-cost %}
+{% endfor %}
 
 ## References
 

@@ -1,0 +1,11 @@
+<div class="card">
+  <header>
+    <h4>{{ include.title }}</h4>
+  </header>
+  <h5>Last server wipe: {{ include.last-wipe }}</h5>
+  <p>CPU Cost: {{ include.cpu-cost }}</p>
+  <p>Minimum for one month world data preservation: {{ include.min-world-month-cost }}€</p>
+  <footer class="is-right">
+    {% include donations-paypal.html %}
+  </footer>
+</div>

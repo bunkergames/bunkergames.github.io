@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville');
+
+/* Palette Color inspired by Tsoding's Gruber Darker Theme for Emacs */
+$gruber-darker-bg-m1:     #101010; // minus 1
+$gruber-darker-bg:        #181818;
+$gruber-darker-bg-p1:     #282828; // plus 1
+$gruber-darker-bg-p2:     #453d41;
+$gruber-darker-bg-p3:     #484848;
+$gruber-darker-fg:        #e4e4ef;
+$gruber-darker-fg-p1:     #f4f4ff;
+$gruber-darker-fg-p2:     #f5f5f5;
+$gruber-darker-red:       #ff4f58;
+$gruber-darker-green:     #73c936;
+$gruber-darker-yellow:    #ffdd33;
+$gruber-darker-blue:      #584fff;
+$gruber-darker-brown:     #cc8c3c;
+$gruber-darker-quartz:    #95a99f;
+$gruber-darker-niagara-2: #303540;
+$gruber-darker-niagara-1: #565f73;
+$gruber-darker-niagara:   #96a6c8;
+$gruber-darker-wisteria:  #9e95c7;
+
+// Override Bulma Variables
+$family-sans-serif: "Iosevka", "Fira Code", "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+$family-code: "Iosevka", "Fira Code", "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+$body-background-color: $gruber-darker-bg;
+$body-color: $gruber-darker-fg;
+$body-font-size: 1.35rem;
+$title-color: $gruber-darker-yellow;
+$subtitle-color: $gruber-darker-brown;
+$size-1: 8rem;
+$size-2: 4rem;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Read: https://bulma.io/documentation/customize/with-node-sass/
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+
+// TODO: Transform next in a skins manner way as minima theme:
+// https://github.com/jekyll/minima/tree/master/_sass/minima
+
+// :root {
+//     --font-size: 1.8rem;
+//     --grid-maxWidth: 120rem; /* max container width 1080px */
+//     --grid-gutter: 5rem;
+// }
+
+// body {
+//     background: $gruber-darker-fg;
+//     color: $gruber-darker-bg;
+//     font-family: $base-font-family;
+
+//     blockquote {
+//         background: $gruber-darker-wisteria;
+//     }
+
+//     a {
+//         color: $gruber-darker-blue;
+//     }
+
+//     .bg-error {
+//         a {
+//             color: $gruber-darker-fg;
+//         }
+//     }
+// }
+
+// body.dark {
+//     background: $gruber-darker-bg-m1;
+//     color: $gruber-darker-fg;
+
+//     blockquote {
+//         background: $gruber-darker-bg;
+//     }
+
+//     a {
+//         color: $gruber-darker-wisteria;
+//     }
+
+//     .bg-error {
+//         a {
+//             color: $gruber-darker-yellow;
+//         }
+//     }
+// }
+
+// h1 {
+//     font-size: 40px;
+//     text-align: center;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+// }
+
+// h2 {
+//     font-size: 28px;
+//     text-align: left;
+//     padding-top: 10px;
+//     padding-bottom: 20px;
+// }
+
+// .banner {
+//   background: transparent
+//     url("https://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg")
+//     0 0 no-repeat fixed;
+//   text-align: center;
+//   background-size: cover;
+//   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
+
+//   height: 80%;
+//   width: 100%;
+//   margin-bottom: 3em;
+//   display: table;
+//   top: 0;
+//   left: 0;
+//   position: fixed !important;
+//   overflow: hidden;
+//   z-index: 1;
+//   text-transform: uppercase;
+// }
